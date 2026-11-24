@@ -1,0 +1,56 @@
+{
+  "may": {
+    "records": 619940,
+    "any_text": 17528,
+    "eligible": 17488,
+    "min_words": 10,
+    "removed": {
+      "exact_prior": 555,
+      "exact_within": 51,
+      "near_prior": 83,
+      "near_within": 57
+    },
+    "retained": 5254,
+    "retained_id_sha256": "6b076b8c89b440107b085296aceb127a5753e678146671bc1341c0bc45e8046a",
+    "sampled": 6000
+  },
+  "june": {
+    "records": 620794,
+    "any_text": 16820,
+    "eligible": 16789,
+    "min_words": 10
+  },
+  "july": {
+    "records": 672036,
+    "any_text": 10002,
+    "eligible": 9972,
+    "min_words": 10
+  },
+  "august": {
+    "records": 667140,
+    "any_text": 1,
+    "eligible": 1,
+    "min_words": 10,
+    "removed": {},
+    "retained": 1,
+    "retained_id_sha256": "dcea9bc8e38d8ee777065d34eb7d4fb190e9b8bcb20812d710568c8b29578926",
+    "sampled": 1
+  },
+  "reference_ids": 63522,
+  "fixed_june_rank_counts": {
+    "Accounts": 516,
+    "Cards": 563,
+    "Collections": 846,
+    "Credit reports": 132,
+    "Mortgages": 216,
+    "Transfers": 219,
+    "Other / review": 341
+  },
+  "policy_hash": "2dc5b756de0255a9b2fd863d9981be2902b0064bc81868076a9a57b6822f0aa8",
+  "archive_hashes": {
+    "may": "311fe537afac63230d52f41529bb91361ce5a9844d7450866538bb0456bceade",
+    "june": "3021c8af9eeed4971a92f15be21c7ce08cf3c1337151de255e5b12bf782049df",
+    "july": "aafebbaaf0962c3d29532411ac2133c01bae830b7ea6ed1931a6e42278437d18",
+    "august": "c64b8147b499d6236d7d591bfdbe8db45af80694a1afb6bd6a739f2789b8b2b1"
+  }
+}

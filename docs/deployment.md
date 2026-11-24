@@ -1,0 +1,7 @@
+# What to do before the first live route
+
+> **Historical phase.** This document records the original policy and its 2026 stress test. For the extended June audit, frozen July evaluation and current pilot decision, read [the decision record](decision.md).
+1. Select a single operating inbox. Draw a locally representative recent sample including short complaints, poorly written submissions and cases outside the six known products. Use two independent specialists and resolve disputes. Product labels in the public archive are only proxies.
+2. Keep all predictions advisory. Measure first-pass review times and the downstream labor and delay on wrong routes. Timestamp the independently known tenant before any routing action; do not copy an eventual recipient into this field. Keep a text-only path.
+3. Require sufficient per-queue adjudicated evidence: for example, zero errors in 73 separated and independently sampled automatic-route candidates gives a two-sided Wilson upper bound just below 5%. With any errors, more evidence is required. Check workload and delays for underrepresented languages, short texts, omitted products and institutions. “Other” and uncertain cases are manual by default.
+4. Stage approved queues one by one; random-audit automatic cases, keep urgent/complaint escalation checks upstream and continue existing deadlines. Track coverage and wrong transfers. If the upper risk bound exceeds 5%, stop automatically routing that queue and investigate drift. Human review remains available for every case.

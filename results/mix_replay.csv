@@ -1,0 +1,7 @@
+period,destination_scope,coverage,wrong_among_routed
+observed primary,all,0.5446002602284227,0.0400849482346695
+observed primary,placed in Credit reports,0.338152378198641,0.020094057289439932
+"old conditional behavior, June true-label proportions",all,0.34426630591015805,0.05838038087378583
+"old conditional behavior, June true-label proportions",placed in Credit reports,0.03725246843239392,0.2871422719371856
+observed June,all,0.3123446561723281,0.12024756852343059
+observed June,placed in Credit reports,0.06462303231151616,0.46153846153846156

@@ -1,0 +1,23 @@
+{
+  "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_20_July_2026.zip",
+  "source_page": "https://www.consumerfinance.gov/foia-requests/foia-electronic-reading-room/cfpb-consumer-complaint-database-narratives-archive/",
+  "raw_zip_sha256": "aafebbaaf0962c3d29532411ac2133c01bae830b7ea6ed1931a6e42278437d18",
+  "raw_archive_rows": 672036,
+  "eligible_published_text_min10words": 9972,
+  "prior_unique_reference_rows": 53550,
+  "historical_and_original_june_reference_size": 40382,
+  "all_june_eligible_reference_size": 16789,
+  "prior_date_max": "2026-06-30",
+  "date_min": "2026-07-01",
+  "date_max": "2026-07-29",
+  "sampling": "All published July narratives with at least 10 words, sorted by date and id. No filtering on product/company/outcome.",
+  "deduplication": "All retained historical references plus all eligible June texts (even repeats), then earliest retained July, SHA-256 of canonical text and 64-permutation MinHash LSH on word trigrams, exact candidate Jaccard >= 0.8. Approximate candidates can miss similar items.",
+  "removed": {
+    "exact_prior": 556,
+    "near_prior": 278,
+    "exact_july": 138,
+    "near_july": 170
+  },
+  "retained": 8830,
+  "retained_id_sha256": "688b843a9b36a416a7508369fc375a0fb7084f444ba538579b343a1448ec581f"
+}

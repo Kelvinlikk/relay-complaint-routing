@@ -1,0 +1,9 @@
+{
+ "Accounts":["checking account","savings account","bank account","overdraft","atm","deposit","debit card"],
+ "Cards":["credit card","card issuer","billing dispute","credit limit","balance transfer","card statement","chargeback","prepaid card"],
+ "Collections":["debt collect","collection agency","debt collector","collecting a debt","debt validation","collection letter","collection account"],
+ "Credit reports":["credit report","credit bureau","credit score","credit file","credit inquiry","credit reporting","reporting agency","credit history"],
+ "Mortgages":["mortgage","foreclosure","escrow","home loan","loan servicer","lien release","forbearance"],
+ "Transfers":["wire transfer","money transfer","remittance","money transmitter","wire fraud","payment app","international transfer","peer to peer","mobile wallet"],
+ "Other / review":["student loan","auto loan","car loan","payday loan","installment loan","personal loan","vehicle loan","car financing"]
+}

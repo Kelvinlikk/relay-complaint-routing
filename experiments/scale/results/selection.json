@@ -1,0 +1,29 @@
+{
+  "may_old": {
+    "keep": 5254,
+    "exact": 606,
+    "near": 140
+  },
+  "may_additional": {
+    "keep": 9741,
+    "exact": 1254,
+    "near": 493
+  },
+  "train_added": {
+    "keep": 30229,
+    "near": 3690,
+    "exact": 2081
+  },
+  "test_new": {
+    "keep": 11847,
+    "near": 1935,
+    "exact": 1308,
+    "id": 910
+  },
+  "hashes": {
+    "added_train": "6a89b158df8d9741d6cab762cda1d58ee0785e3329932351d887a5f27485f251",
+    "fresh_test": "d1bb4f35395ba58768bfac3d9be6989ab8c64bf5d03722c99911c60a6aecaef1",
+    "original_may": "6b076b8c89b440107b085296aceb127a5753e678146671bc1341c0bc45e8046a",
+    "extra_may": "7a7433a0ce5ad97b8781757de61316ad404b5d11362112690c467534dd3c264e"
+  }
+}

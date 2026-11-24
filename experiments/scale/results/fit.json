@@ -1,0 +1,11 @@
+{
+  "original_training": 23779,
+  "additional_training": 30229,
+  "expanded_training": 54008,
+  "C": 6,
+  "solver": "lbfgs",
+  "iterations": [
+    208
+  ],
+  "iteration_cap": 240
+}

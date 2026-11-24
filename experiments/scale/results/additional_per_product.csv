@@ -1,0 +1,22 @@
+period,method,true_product,correct_in_top2,n,rate
+May additional,Model,Accounts,1822,1974,0.922998986828774
+May additional,Model,Cards,1497,1628,0.9195331695331695
+May additional,Model,Collections,2287,2376,0.9625420875420876
+May additional,Model,Credit reports,135,161,0.8385093167701864
+May additional,Model,Mortgages,288,314,0.9171974522292994
+May additional,Model,Transfers,803,932,0.8615879828326181
+May additional,Model,Other / review,1263,1437,0.8789144050104384
+May additional,Fixed June products,Accounts,0,1974,0.0
+May additional,Fixed June products,Cards,1628,1628,1.0
+May additional,Fixed June products,Collections,2376,2376,1.0
+May additional,Fixed June products,Credit reports,0,161,0.0
+May additional,Fixed June products,Mortgages,0,314,0.0
+May additional,Fixed June products,Transfers,0,932,0.0
+May additional,Fixed June products,Other / review,0,1437,0.0
+May additional,Keyword rule,Accounts,1188,1974,0.601823708206687
+May additional,Keyword rule,Cards,1342,1628,0.8243243243243243
+May additional,Keyword rule,Collections,2280,2376,0.9595959595959596
+May additional,Keyword rule,Credit reports,113,161,0.7018633540372671
+May additional,Keyword rule,Mortgages,215,314,0.6847133757961783
+May additional,Keyword rule,Transfers,88,932,0.0944206008583691
+May additional,Keyword rule,Other / review,372,1437,0.2588726513569937

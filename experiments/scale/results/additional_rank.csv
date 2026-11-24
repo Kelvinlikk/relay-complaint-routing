@@ -1,0 +1,7 @@
+period,on,method,k,correct_in_list,n,rate,ci_low,ci_high
+May additional,held under length-guarded rule,Model,1,6895,8822,0.7815688052595783,0.7728253074321565,0.7900671967193764
+May additional,held under length-guarded rule,Model,2,8095,8822,0.9175923826796645,0.911670828995207,0.9231504211232503
+May additional,held under length-guarded rule,Fixed June products,1,2376,8822,0.26932668329177056,0.2601716477769643,0.2786825205207934
+May additional,held under length-guarded rule,Fixed June products,2,4004,8822,0.4538653366583541,0.4434985582056837,0.4642722754538678
+May additional,held under length-guarded rule,Keyword rule,1,3693,8822,0.4186125595103151,0.40835570445213365,0.4289402625443234
+May additional,held under length-guarded rule,Keyword rule,2,5598,8822,0.6345499886647019,0.6244447051482293,0.6445381460707199

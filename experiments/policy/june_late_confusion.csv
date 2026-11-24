@@ -1,0 +1,246 @@
+policy,truth,destination,n
+manual,Accounts,Accounts,0
+manual,Accounts,Cards,0
+manual,Accounts,Collections,0
+manual,Accounts,Credit reports,0
+manual,Accounts,Mortgages,0
+manual,Accounts,Transfers,0
+manual,Accounts,Other / review,0
+manual,Cards,Accounts,0
+manual,Cards,Cards,0
+manual,Cards,Collections,0
+manual,Cards,Credit reports,0
+manual,Cards,Mortgages,0
+manual,Cards,Transfers,0
+manual,Cards,Other / review,0
+manual,Collections,Accounts,0
+manual,Collections,Cards,0
+manual,Collections,Collections,0
+manual,Collections,Credit reports,0
+manual,Collections,Mortgages,0
+manual,Collections,Transfers,0
+manual,Collections,Other / review,0
+manual,Credit reports,Accounts,0
+manual,Credit reports,Cards,0
+manual,Credit reports,Collections,0
+manual,Credit reports,Credit reports,0
+manual,Credit reports,Mortgages,0
+manual,Credit reports,Transfers,0
+manual,Credit reports,Other / review,0
+manual,Mortgages,Accounts,0
+manual,Mortgages,Cards,0
+manual,Mortgages,Collections,0
+manual,Mortgages,Credit reports,0
+manual,Mortgages,Mortgages,0
+manual,Mortgages,Transfers,0
+manual,Mortgages,Other / review,0
+manual,Transfers,Accounts,0
+manual,Transfers,Cards,0
+manual,Transfers,Collections,0
+manual,Transfers,Credit reports,0
+manual,Transfers,Mortgages,0
+manual,Transfers,Transfers,0
+manual,Transfers,Other / review,0
+manual,Other / review,Accounts,0
+manual,Other / review,Cards,0
+manual,Other / review,Collections,0
+manual,Other / review,Credit reports,0
+manual,Other / review,Mortgages,0
+manual,Other / review,Transfers,0
+manual,Other / review,Other / review,0
+legacy,Accounts,Accounts,240
+legacy,Accounts,Cards,2
+legacy,Accounts,Collections,0
+legacy,Accounts,Credit reports,13
+legacy,Accounts,Mortgages,0
+legacy,Accounts,Transfers,11
+legacy,Accounts,Other / review,0
+legacy,Cards,Accounts,2
+legacy,Cards,Cards,489
+legacy,Cards,Collections,6
+legacy,Cards,Credit reports,49
+legacy,Cards,Mortgages,0
+legacy,Cards,Transfers,2
+legacy,Cards,Other / review,0
+legacy,Collections,Accounts,1
+legacy,Collections,Cards,2
+legacy,Collections,Collections,624
+legacy,Collections,Credit reports,121
+legacy,Collections,Mortgages,1
+legacy,Collections,Transfers,0
+legacy,Collections,Other / review,0
+legacy,Credit reports,Accounts,0
+legacy,Credit reports,Cards,0
+legacy,Credit reports,Collections,0
+legacy,Credit reports,Credit reports,159
+legacy,Credit reports,Mortgages,0
+legacy,Credit reports,Transfers,0
+legacy,Credit reports,Other / review,0
+legacy,Mortgages,Accounts,0
+legacy,Mortgages,Cards,0
+legacy,Mortgages,Collections,1
+legacy,Mortgages,Credit reports,1
+legacy,Mortgages,Mortgages,296
+legacy,Mortgages,Transfers,0
+legacy,Mortgages,Other / review,0
+legacy,Transfers,Accounts,8
+legacy,Transfers,Cards,0
+legacy,Transfers,Collections,0
+legacy,Transfers,Credit reports,1
+legacy,Transfers,Mortgages,0
+legacy,Transfers,Transfers,81
+legacy,Transfers,Other / review,0
+legacy,Other / review,Accounts,0
+legacy,Other / review,Cards,1
+legacy,Other / review,Collections,6
+legacy,Other / review,Credit reports,46
+legacy,Other / review,Mortgages,1
+legacy,Other / review,Transfers,1
+legacy,Other / review,Other / review,0
+recalibrated_same_cutoff,Accounts,Accounts,505
+recalibrated_same_cutoff,Accounts,Cards,6
+recalibrated_same_cutoff,Accounts,Collections,0
+recalibrated_same_cutoff,Accounts,Credit reports,0
+recalibrated_same_cutoff,Accounts,Mortgages,0
+recalibrated_same_cutoff,Accounts,Transfers,13
+recalibrated_same_cutoff,Accounts,Other / review,0
+recalibrated_same_cutoff,Cards,Accounts,9
+recalibrated_same_cutoff,Cards,Cards,520
+recalibrated_same_cutoff,Cards,Collections,8
+recalibrated_same_cutoff,Cards,Credit reports,8
+recalibrated_same_cutoff,Cards,Mortgages,0
+recalibrated_same_cutoff,Cards,Transfers,3
+recalibrated_same_cutoff,Cards,Other / review,0
+recalibrated_same_cutoff,Collections,Accounts,1
+recalibrated_same_cutoff,Collections,Cards,3
+recalibrated_same_cutoff,Collections,Collections,937
+recalibrated_same_cutoff,Collections,Credit reports,30
+recalibrated_same_cutoff,Collections,Mortgages,1
+recalibrated_same_cutoff,Collections,Transfers,0
+recalibrated_same_cutoff,Collections,Other / review,0
+recalibrated_same_cutoff,Credit reports,Accounts,0
+recalibrated_same_cutoff,Credit reports,Cards,1
+recalibrated_same_cutoff,Credit reports,Collections,4
+recalibrated_same_cutoff,Credit reports,Credit reports,73
+recalibrated_same_cutoff,Credit reports,Mortgages,1
+recalibrated_same_cutoff,Credit reports,Transfers,0
+recalibrated_same_cutoff,Credit reports,Other / review,0
+recalibrated_same_cutoff,Mortgages,Accounts,0
+recalibrated_same_cutoff,Mortgages,Cards,0
+recalibrated_same_cutoff,Mortgages,Collections,1
+recalibrated_same_cutoff,Mortgages,Credit reports,0
+recalibrated_same_cutoff,Mortgages,Mortgages,276
+recalibrated_same_cutoff,Mortgages,Transfers,0
+recalibrated_same_cutoff,Mortgages,Other / review,0
+recalibrated_same_cutoff,Transfers,Accounts,22
+recalibrated_same_cutoff,Transfers,Cards,0
+recalibrated_same_cutoff,Transfers,Collections,0
+recalibrated_same_cutoff,Transfers,Credit reports,0
+recalibrated_same_cutoff,Transfers,Mortgages,0
+recalibrated_same_cutoff,Transfers,Transfers,91
+recalibrated_same_cutoff,Transfers,Other / review,0
+recalibrated_same_cutoff,Other / review,Accounts,1
+recalibrated_same_cutoff,Other / review,Cards,1
+recalibrated_same_cutoff,Other / review,Collections,9
+recalibrated_same_cutoff,Other / review,Credit reports,13
+recalibrated_same_cutoff,Other / review,Mortgages,1
+recalibrated_same_cutoff,Other / review,Transfers,1
+recalibrated_same_cutoff,Other / review,Other / review,0
+recalibrated_pooled_certificate,Accounts,Accounts,0
+recalibrated_pooled_certificate,Accounts,Cards,0
+recalibrated_pooled_certificate,Accounts,Collections,0
+recalibrated_pooled_certificate,Accounts,Credit reports,0
+recalibrated_pooled_certificate,Accounts,Mortgages,0
+recalibrated_pooled_certificate,Accounts,Transfers,0
+recalibrated_pooled_certificate,Accounts,Other / review,0
+recalibrated_pooled_certificate,Cards,Accounts,0
+recalibrated_pooled_certificate,Cards,Cards,0
+recalibrated_pooled_certificate,Cards,Collections,0
+recalibrated_pooled_certificate,Cards,Credit reports,0
+recalibrated_pooled_certificate,Cards,Mortgages,0
+recalibrated_pooled_certificate,Cards,Transfers,0
+recalibrated_pooled_certificate,Cards,Other / review,0
+recalibrated_pooled_certificate,Collections,Accounts,0
+recalibrated_pooled_certificate,Collections,Cards,0
+recalibrated_pooled_certificate,Collections,Collections,0
+recalibrated_pooled_certificate,Collections,Credit reports,0
+recalibrated_pooled_certificate,Collections,Mortgages,0
+recalibrated_pooled_certificate,Collections,Transfers,0
+recalibrated_pooled_certificate,Collections,Other / review,0
+recalibrated_pooled_certificate,Credit reports,Accounts,0
+recalibrated_pooled_certificate,Credit reports,Cards,0
+recalibrated_pooled_certificate,Credit reports,Collections,0
+recalibrated_pooled_certificate,Credit reports,Credit reports,0
+recalibrated_pooled_certificate,Credit reports,Mortgages,0
+recalibrated_pooled_certificate,Credit reports,Transfers,0
+recalibrated_pooled_certificate,Credit reports,Other / review,0
+recalibrated_pooled_certificate,Mortgages,Accounts,0
+recalibrated_pooled_certificate,Mortgages,Cards,0
+recalibrated_pooled_certificate,Mortgages,Collections,0
+recalibrated_pooled_certificate,Mortgages,Credit reports,0
+recalibrated_pooled_certificate,Mortgages,Mortgages,0
+recalibrated_pooled_certificate,Mortgages,Transfers,0
+recalibrated_pooled_certificate,Mortgages,Other / review,0
+recalibrated_pooled_certificate,Transfers,Accounts,0
+recalibrated_pooled_certificate,Transfers,Cards,0
+recalibrated_pooled_certificate,Transfers,Collections,0
+recalibrated_pooled_certificate,Transfers,Credit reports,0
+recalibrated_pooled_certificate,Transfers,Mortgages,0
+recalibrated_pooled_certificate,Transfers,Transfers,0
+recalibrated_pooled_certificate,Transfers,Other / review,0
+recalibrated_pooled_certificate,Other / review,Accounts,0
+recalibrated_pooled_certificate,Other / review,Cards,0
+recalibrated_pooled_certificate,Other / review,Collections,0
+recalibrated_pooled_certificate,Other / review,Credit reports,0
+recalibrated_pooled_certificate,Other / review,Mortgages,0
+recalibrated_pooled_certificate,Other / review,Transfers,0
+recalibrated_pooled_certificate,Other / review,Other / review,0
+certified_destinations,Accounts,Accounts,0
+certified_destinations,Accounts,Cards,0
+certified_destinations,Accounts,Collections,0
+certified_destinations,Accounts,Credit reports,0
+certified_destinations,Accounts,Mortgages,0
+certified_destinations,Accounts,Transfers,0
+certified_destinations,Accounts,Other / review,0
+certified_destinations,Cards,Accounts,0
+certified_destinations,Cards,Cards,0
+certified_destinations,Cards,Collections,0
+certified_destinations,Cards,Credit reports,0
+certified_destinations,Cards,Mortgages,0
+certified_destinations,Cards,Transfers,0
+certified_destinations,Cards,Other / review,0
+certified_destinations,Collections,Accounts,0
+certified_destinations,Collections,Cards,0
+certified_destinations,Collections,Collections,0
+certified_destinations,Collections,Credit reports,0
+certified_destinations,Collections,Mortgages,0
+certified_destinations,Collections,Transfers,0
+certified_destinations,Collections,Other / review,0
+certified_destinations,Credit reports,Accounts,0
+certified_destinations,Credit reports,Cards,0
+certified_destinations,Credit reports,Collections,0
+certified_destinations,Credit reports,Credit reports,0
+certified_destinations,Credit reports,Mortgages,0
+certified_destinations,Credit reports,Transfers,0
+certified_destinations,Credit reports,Other / review,0
+certified_destinations,Mortgages,Accounts,0
+certified_destinations,Mortgages,Cards,0
+certified_destinations,Mortgages,Collections,0
+certified_destinations,Mortgages,Credit reports,0
+certified_destinations,Mortgages,Mortgages,0
+certified_destinations,Mortgages,Transfers,0
+certified_destinations,Mortgages,Other / review,0
+certified_destinations,Transfers,Accounts,0
+certified_destinations,Transfers,Cards,0
+certified_destinations,Transfers,Collections,0
+certified_destinations,Transfers,Credit reports,0
+certified_destinations,Transfers,Mortgages,0
+certified_destinations,Transfers,Transfers,0
+certified_destinations,Transfers,Other / review,0
+certified_destinations,Other / review,Accounts,0
+certified_destinations,Other / review,Cards,0
+certified_destinations,Other / review,Collections,0
+certified_destinations,Other / review,Credit reports,0
+certified_destinations,Other / review,Mortgages,0
+certified_destinations,Other / review,Transfers,0
+certified_destinations,Other / review,Other / review,0

@@ -1,0 +1,9 @@
+{
+  "version":"1.0",
+  "design":"New, unused May 2026 archive challenge. It predates June policy development: a backward transport stress test, never prospective confirmation. Frozen after learning that August lacked usable text, before looking at any May rows, labels or scores.",
+  "sampling":"Among all May narratives with at least 10 whitespace words, retain the 6,000 smallest BLAKE2b-64 hexadecimal keys of 'relay-may-frozen:' followed by complaint ID; then sort by date/ID. No product-, state- or company-based sampling.",
+  "dedup":"Exclude exact/near narratives against all retained study history and all eligible June/July texts (even ones subsequently dropped), then earlier accepted May cases, to avoid overlap with the other calendar windows. Same canonical text, CRC word-trigrams, 64 permutation LSH seed 15071, .73 candidate threshold, verify Jaccard >=.80. Missing candidates remain possible.",
+  "frozen_policies":"Compare June destination rule and the same rule withholding all texts under 50 words. No changes to scores or cutoffs after looking at May.",
+  "shortlist":"Rank seven products for cases held under the 50-word policy; two fixed June 1-7 frequencies as naive benchmark, and a simple hand-written product-keyword rule as a content-aware benchmark. Count hits on the same manual cases; give a paired receipt-day bootstrap for the difference against the stronger of the two benchmarks (selection is descriptive); report each recorded product separately, including Other. No gain in human accuracy, time, or cost is estimated from hit rates.",
+  "report":"All counts including short subgroup and intervals even if a hypothesis underperforms. No further selection of markets, days, thresholds or winning policies. Public archive labels are not an adjudicated human routing benchmark. May is a retrospective stress test."
+}

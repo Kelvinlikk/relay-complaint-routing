@@ -1,0 +1,27 @@
+data/
+models/config.json
+models/pytorch_model.bin
+models/vocab.txt
+__pycache__/
+*.pyc
+.venv/
+catboost_info/
+*.zip
+*.bundle
+.cache/
+artifacts_private/
+**/private/
+**/private_*
+**/sealed/
+**/run.log
+**/raw/
+*.pkl
+.conda/
+.ruff_cache/
+
+# Public source edition: never stage generated models or fitted vocabularies.
+models/
+*.joblib
+*.safetensors
+*.cbm
+*.npz

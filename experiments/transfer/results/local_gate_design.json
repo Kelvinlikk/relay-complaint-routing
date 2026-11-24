@@ -1,0 +1,11 @@
+{
+  "n_per_destination": 400,
+  "maximum_wrong": 11,
+  "next_fails": 12,
+  "upper_if_maximum": 0.04867154890808907,
+  "upper_if_next": 0.05181721543058358,
+  "single_look_alpha_per_desk": 0.025,
+  "pass_probability_at_2pct": 0.8902669237757703,
+  "pass_probability_at_3pct": 0.45985181472601594,
+  "assumptions": "One fixed look per queue; independent Bernoulli opportunities. Template, reviewer, client or date clustering can reduce effective sample size."
+}

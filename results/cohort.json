@@ -1,0 +1,88 @@
+{
+  "sha256_archives": {
+    "CCDB_Export_2_May_2018_through_April_2021.zip": "4b33ffc92fa0236836228c5618b7247f0f59ffef35760a45175c858a0d5aaf45",
+    "CCDB_Export_19_June_2026.zip": "3021c8af9eeed4971a92f15be21c7ce08cf3c1337151de255e5b12bf782049df"
+  },
+  "sampling": {
+    "train": {
+      "eligible": 196848,
+      "draw": 26000
+    },
+    "tune": {
+      "eligible": 49608,
+      "draw": 3500
+    },
+    "policy": {
+      "eligible": 64047,
+      "draw": 3500
+    },
+    "test": {
+      "eligible": 123369,
+      "draw": 8000
+    },
+    "shift": {
+      "eligible": 16789,
+      "draw": 4000
+    }
+  },
+  "retained": {
+    "policy": 3000,
+    "shift": 3621,
+    "test": 6917,
+    "train": 23779,
+    "tune": 3065
+  },
+  "by_queue": {
+    "Accounts": {
+      "policy": 214,
+      "shift": 786,
+      "test": 442,
+      "train": 1463,
+      "tune": 203
+    },
+    "Cards": {
+      "policy": 342,
+      "shift": 710,
+      "test": 689,
+      "train": 2535,
+      "tune": 311
+    },
+    "Collections": {
+      "policy": 465,
+      "shift": 901,
+      "test": 1208,
+      "train": 4999,
+      "tune": 556
+    },
+    "Credit reports": {
+      "policy": 1427,
+      "shift": 140,
+      "test": 3337,
+      "train": 9930,
+      "tune": 1454
+    },
+    "Mortgages": {
+      "policy": 245,
+      "shift": 254,
+      "test": 635,
+      "train": 2092,
+      "tune": 277
+    },
+    "Other / review": {
+      "policy": 174,
+      "shift": 496,
+      "test": 344,
+      "train": 2186,
+      "tune": 200
+    },
+    "Transfers": {
+      "policy": 133,
+      "shift": 334,
+      "test": 262,
+      "train": 574,
+      "tune": 64
+    }
+  },
+  "sha256_retained_ids": "1a55f24a073f63a3d256fa73cf50c2ddf21a3797b35a83b535633dc9581a34cc",
+  "removed_in_sample": 4618
+}

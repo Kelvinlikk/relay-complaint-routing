@@ -1,0 +1,123 @@
+{
+  "rows": [
+    {
+      "policy": "manual",
+      "n": 7373,
+      "auto": 0,
+      "manual": 7373,
+      "correct_auto": 0,
+      "wrong": 0,
+      "coverage": 0.0,
+      "risk": null,
+      "coverage_ci": [
+        0.0,
+        0.0005207457476398366
+      ],
+      "risk_ci": [
+        null,
+        null
+      ],
+      "net_scenario_per_10000": 0.0
+    },
+    {
+      "policy": "legacy",
+      "n": 7373,
+      "auto": 2165,
+      "manual": 5208,
+      "correct_auto": 1889,
+      "wrong": 276,
+      "coverage": 0.29363895293638953,
+      "risk": 0.12748267898383372,
+      "coverage_ci": [
+        0.28335304703367103,
+        0.3041397821145818
+      ],
+      "risk_ci": [
+        0.11409087207500343,
+        0.14219409359645355
+      ],
+      "net_scenario_per_10000": -3485.6910348569104
+    },
+    {
+      "policy": "recalibrated_same_cutoff",
+      "n": 7373,
+      "auto": 2539,
+      "manual": 4834,
+      "correct_auto": 2402,
+      "wrong": 137,
+      "coverage": 0.34436457344364574,
+      "risk": 0.05395825128003151,
+      "coverage_ci": [
+        0.33360222097341885,
+        0.35528901888699527
+      ],
+      "risk_ci": [
+        0.045824692544221036,
+        0.0634394764258531
+      ],
+      "net_scenario_per_10000": 2241.963922419639
+    },
+    {
+      "policy": "recalibrated_pooled_certificate",
+      "n": 7373,
+      "auto": 0,
+      "manual": 7373,
+      "correct_auto": 0,
+      "wrong": 0,
+      "coverage": 0.0,
+      "risk": null,
+      "coverage_ci": [
+        0.0,
+        0.0005207457476398366
+      ],
+      "risk_ci": [
+        null,
+        null
+      ],
+      "net_scenario_per_10000": 0.0
+    },
+    {
+      "policy": "certified_destinations",
+      "n": 7373,
+      "auto": 0,
+      "manual": 7373,
+      "correct_auto": 0,
+      "wrong": 0,
+      "coverage": 0.0,
+      "risk": null,
+      "coverage_ci": [
+        0.0,
+        0.0005207457476398366
+      ],
+      "risk_ci": [
+        null,
+        null
+      ],
+      "net_scenario_per_10000": 0.0
+    }
+  ],
+  "paired_date_bootstrap": {
+    "days": 15,
+    "draws": 3000,
+    "guard_risk": [
+      null,
+      null
+    ],
+    "legacy_risk": [
+      0.1136344534247971,
+      0.1450606792307313
+    ],
+    "guard_minus_legacy_risk": [
+      null,
+      null
+    ],
+    "guard_minus_legacy_coverage": [
+      -0.30309709624756065,
+      -0.28457978689710917
+    ],
+    "guard_minus_legacy_net_per_10000": [
+      2465.4675731949305,
+      4750.9478295023155
+    ]
+  }
+}

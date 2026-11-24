@@ -1,0 +1,17 @@
+{
+  "n_companies": 737,
+  "bootstrap_draws": 2500,
+  "method": "Resample full institution clusters uniformly with replacement including missing tenant as its own cluster; percentile 95% intervals; diagnostics, not new gates.",
+  "coverage_interval": [
+    0.061922357814004785,
+    0.15431846158706375
+  ],
+  "risk_interval": [
+    0.011570376232801655,
+    0.02534768487674884
+  ],
+  "locked_policy_sha256": "2dc5b756de0255a9b2fd863d9981be2902b0064bc81868076a9a57b6822f0aa8",
+  "all_July_n": 8830,
+  "all_July_autorouted": 928,
+  "all_July_wrong": 17
+}

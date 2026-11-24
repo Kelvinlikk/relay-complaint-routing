@@ -1,0 +1,169 @@
+model,period,label,n,recall
+Intake,tune,Accounts,203,0.5320197044334976
+Intake,tune,Cards,311,0.7491961414790996
+Intake,tune,Collections,556,0.7230215827338129
+Intake,tune,Credit reports,1454,0.8301237964236589
+Intake,tune,Mortgages,277,0.6967509025270758
+Intake,tune,Transfers,64,0.625
+Intake,tune,Other / review,200,0.62
+Intake,policy,Accounts,214,0.5186915887850467
+Intake,policy,Cards,342,0.6900584795321637
+Intake,policy,Collections,465,0.7827956989247312
+Intake,policy,Credit reports,1427,0.8142957252978276
+Intake,policy,Mortgages,245,0.6408163265306123
+Intake,policy,Transfers,133,0.40601503759398494
+Intake,policy,Other / review,174,0.5229885057471264
+Intake,test,Accounts,442,0.39819004524886875
+Intake,test,Cards,689,0.7184325108853411
+Intake,test,Collections,1208,0.7723509933774835
+Intake,test,Credit reports,3337,0.799220857057237
+Intake,test,Mortgages,635,0.658267716535433
+Intake,test,Transfers,262,0.6145038167938931
+Intake,test,Other / review,344,0.5261627906976745
+Intake,shift,Accounts,786,0.3256997455470738
+Intake,shift,Cards,710,0.643661971830986
+Intake,shift,Collections,901,0.8335183129855716
+Intake,shift,Credit reports,140,0.9928571428571429
+Intake,shift,Mortgages,254,0.6968503937007874
+Intake,shift,Transfers,334,0.6676646706586826
+Intake,shift,Other / review,496,0.42338709677419356
+Encoder,tune,Accounts,203,0.7783251231527094
+Encoder,tune,Cards,311,0.752411575562701
+Encoder,tune,Collections,556,0.7230215827338129
+Encoder,tune,Credit reports,1454,0.8342503438789546
+Encoder,tune,Mortgages,277,0.8844765342960289
+Encoder,tune,Transfers,64,0.484375
+Encoder,tune,Other / review,200,0.75
+Encoder,policy,Accounts,214,0.7289719626168224
+Encoder,policy,Cards,342,0.6842105263157895
+Encoder,policy,Collections,465,0.7419354838709677
+Encoder,policy,Credit reports,1427,0.8556412053258584
+Encoder,policy,Mortgages,245,0.8244897959183674
+Encoder,policy,Transfers,133,0.41353383458646614
+Encoder,policy,Other / review,174,0.6609195402298851
+Encoder,test,Accounts,442,0.7171945701357466
+Encoder,test,Cards,689,0.7053701015965167
+Encoder,test,Collections,1208,0.7201986754966887
+Encoder,test,Credit reports,3337,0.8570572370392568
+Encoder,test,Mortgages,635,0.8551181102362204
+Encoder,test,Transfers,262,0.5038167938931297
+Encoder,test,Other / review,344,0.5901162790697675
+Encoder,shift,Accounts,786,0.6679389312977099
+Encoder,shift,Cards,710,0.6549295774647887
+Encoder,shift,Collections,901,0.6736958934517203
+Encoder,shift,Credit reports,140,0.9857142857142858
+Encoder,shift,Mortgages,254,0.8700787401574803
+Encoder,shift,Transfers,334,0.36826347305389223
+Encoder,shift,Other / review,496,0.5141129032258065
+Encoder + intake,tune,Accounts,203,0.8078817733990148
+Encoder + intake,tune,Cards,311,0.8070739549839229
+Encoder + intake,tune,Collections,556,0.7787769784172662
+Encoder + intake,tune,Credit reports,1454,0.8933975240715268
+Encoder + intake,tune,Mortgages,277,0.9169675090252708
+Encoder + intake,tune,Transfers,64,0.609375
+Encoder + intake,tune,Other / review,200,0.785
+Encoder + intake,policy,Accounts,214,0.7897196261682243
+Encoder + intake,policy,Cards,342,0.7573099415204678
+Encoder + intake,policy,Collections,465,0.8064516129032258
+Encoder + intake,policy,Credit reports,1427,0.8934828311142257
+Encoder + intake,policy,Mortgages,245,0.8857142857142857
+Encoder + intake,policy,Transfers,133,0.45112781954887216
+Encoder + intake,policy,Other / review,174,0.7471264367816092
+Encoder + intake,test,Accounts,442,0.7624434389140271
+Encoder + intake,test,Cards,689,0.7576197387518142
+Encoder + intake,test,Collections,1208,0.7889072847682119
+Encoder + intake,test,Credit reports,3337,0.8936170212765957
+Encoder + intake,test,Mortgages,635,0.8818897637795275
+Encoder + intake,test,Transfers,262,0.6259541984732825
+Encoder + intake,test,Other / review,344,0.686046511627907
+Encoder + intake,shift,Accounts,786,0.6755725190839694
+Encoder + intake,shift,Cards,710,0.6985915492957746
+Encoder + intake,shift,Collections,901,0.7935627081021087
+Encoder + intake,shift,Credit reports,140,1.0
+Encoder + intake,shift,Mortgages,254,0.8937007874015748
+Encoder + intake,shift,Transfers,334,0.6377245508982036
+Encoder + intake,shift,Other / review,496,0.5745967741935484
+Sparse + intake,tune,Accounts,203,0.8768472906403941
+Sparse + intake,tune,Cards,311,0.8488745980707395
+Sparse + intake,tune,Collections,556,0.7823741007194245
+Sparse + intake,tune,Credit reports,1454,0.8982118294360385
+Sparse + intake,tune,Mortgages,277,0.9314079422382672
+Sparse + intake,tune,Transfers,64,0.75
+Sparse + intake,tune,Other / review,200,0.77
+Sparse + intake,policy,Accounts,214,0.8317757009345794
+Sparse + intake,policy,Cards,342,0.8128654970760234
+Sparse + intake,policy,Collections,465,0.8172043010752689
+Sparse + intake,policy,Credit reports,1427,0.8801681850035038
+Sparse + intake,policy,Mortgages,245,0.9020408163265307
+Sparse + intake,policy,Transfers,133,0.518796992481203
+Sparse + intake,policy,Other / review,174,0.7413793103448276
+Sparse + intake,test,Accounts,442,0.7941176470588235
+Sparse + intake,test,Cards,689,0.7648766328011611
+Sparse + intake,test,Collections,1208,0.8013245033112583
+Sparse + intake,test,Credit reports,3337,0.8936170212765957
+Sparse + intake,test,Mortgages,635,0.8944881889763779
+Sparse + intake,test,Transfers,262,0.6908396946564885
+Sparse + intake,test,Other / review,344,0.7034883720930233
+Sparse + intake,shift,Accounts,786,0.6768447837150128
+Sparse + intake,shift,Cards,710,0.7408450704225352
+Sparse + intake,shift,Collections,901,0.8013318534961155
+Sparse + intake,shift,Credit reports,140,1.0
+Sparse + intake,shift,Mortgages,254,0.8779527559055118
+Sparse + intake,shift,Transfers,334,0.7275449101796407
+Sparse + intake,shift,Other / review,496,0.5967741935483871
+Joint,tune,Accounts,203,0.8374384236453202
+Joint,tune,Cards,311,0.8070739549839229
+Joint,tune,Collections,556,0.7805755395683454
+Joint,tune,Credit reports,1454,0.9023383768913342
+Joint,tune,Mortgages,277,0.9169675090252708
+Joint,tune,Transfers,64,0.671875
+Joint,tune,Other / review,200,0.8
+Joint,policy,Accounts,214,0.8130841121495327
+Joint,policy,Cards,342,0.7660818713450293
+Joint,policy,Collections,465,0.8172043010752689
+Joint,policy,Credit reports,1427,0.8983882270497547
+Joint,policy,Mortgages,245,0.8857142857142857
+Joint,policy,Transfers,133,0.5037593984962406
+Joint,policy,Other / review,174,0.7413793103448276
+Joint,test,Accounts,442,0.8076923076923077
+Joint,test,Cards,689,0.7619738751814223
+Joint,test,Collections,1208,0.8021523178807947
+Joint,test,Credit reports,3337,0.8972130656278094
+Joint,test,Mortgages,635,0.889763779527559
+Joint,test,Transfers,262,0.6450381679389313
+Joint,test,Other / review,344,0.6976744186046512
+Joint,shift,Accounts,786,0.6946564885496184
+Joint,shift,Cards,710,0.6971830985915493
+Joint,shift,Collections,901,0.7902330743618202
+Joint,shift,Credit reports,140,1.0
+Joint,shift,Mortgages,254,0.9015748031496063
+Joint,shift,Transfers,334,0.6766467065868264
+Joint,shift,Other / review,496,0.5846774193548387
+Original blend,tune,Accounts,203,0.8423645320197044
+Original blend,tune,Cards,311,0.7942122186495176
+Original blend,tune,Collections,556,0.7517985611510791
+Original blend,tune,Credit reports,1454,0.8982118294360385
+Original blend,tune,Mortgages,277,0.9169675090252708
+Original blend,tune,Transfers,64,0.734375
+Original blend,tune,Other / review,200,0.775
+Original blend,policy,Accounts,214,0.7897196261682243
+Original blend,policy,Cards,342,0.7631578947368421
+Original blend,policy,Collections,465,0.7741935483870968
+Original blend,policy,Credit reports,1427,0.8829712683952348
+Original blend,policy,Mortgages,245,0.8775510204081632
+Original blend,policy,Transfers,133,0.5639097744360902
+Original blend,policy,Other / review,174,0.6954022988505747
+Original blend,test,Accounts,442,0.7963800904977375
+Original blend,test,Cards,689,0.7285921625544267
+Original blend,test,Collections,1208,0.7607615894039735
+Original blend,test,Credit reports,3337,0.8903206472879832
+Original blend,test,Mortgages,635,0.8913385826771654
+Original blend,test,Transfers,262,0.6412213740458015
+Original blend,test,Other / review,344,0.6482558139534884
+Original blend,shift,Accounts,786,0.6819338422391857
+Original blend,shift,Cards,710,0.7563380281690141
+Original blend,shift,Collections,901,0.7192008879023307
+Original blend,shift,Credit reports,140,0.9928571428571429
+Original blend,shift,Mortgages,254,0.8661417322834646
+Original blend,shift,Transfers,334,0.5718562874251497
+Original blend,shift,Other / review,496,0.5725806451612904

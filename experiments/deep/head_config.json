@@ -1,0 +1,51 @@
+{
+  "Intake": {
+    "C": 8.0,
+    "temperature": 1.0643740879673929,
+    "policy_cutoff": 0.8700000000000003,
+    "validation_nll": 0.7016049240253506,
+    "inputs": [
+      "meta"
+    ]
+  },
+  "Encoder": {
+    "C": 8.0,
+    "temperature": 1.0883909523676096,
+    "policy_cutoff": 0.9050000000000004,
+    "validation_nll": 0.597057489113191,
+    "inputs": [
+      "emb"
+    ]
+  },
+  "Encoder + intake": {
+    "C": 1.0,
+    "temperature": 1.0528526511373932,
+    "policy_cutoff": 0.8900000000000003,
+    "validation_nll": 0.45916388122724905,
+    "inputs": [
+      "emb",
+      "meta"
+    ]
+  },
+  "Sparse + intake": {
+    "C": 8.0,
+    "temperature": 1.0712050615341961,
+    "policy_cutoff": 0.8850000000000003,
+    "validation_nll": 0.40906672398850785,
+    "inputs": [
+      "tf",
+      "meta"
+    ]
+  },
+  "Joint": {
+    "C": 1.0,
+    "temperature": 1.025689282399446,
+    "policy_cutoff": 0.8900000000000003,
+    "validation_nll": 0.4205130844691153,
+    "inputs": [
+      "tf",
+      "emb",
+      "meta"
+    ]
+  }
+}

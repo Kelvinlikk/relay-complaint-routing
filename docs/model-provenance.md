@@ -1,0 +1,7 @@
+# Model and data provenance
+
+The transformer benchmark fine-tunes both layers of [BERT-Tiny](https://huggingface.co/prajjwal1/bert-tiny), revision `6f75de8b60a9f8a2fdf7b69cbd86d9e64bcb3837`. The provider describes it as a PyTorch conversion of Google's small BERT models. [The training script](../src/fit_text.py) downloads the pinned configuration, vocabulary and weights, then saves the local fine-tuned encoder and tokenizer in `models/fine/`. See the upstream model card for attribution and terms. The classical models use historical complaint data; the frozen decision rule uses TF-IDF logistic regression and tabular CatBoost, not the transformer.
+
+The source data are dated extracts from the US Consumer Financial Protection Bureau. See the [source list](sources.md), [July archive manifest](../experiments/external/results/july_manifest.json) and [May–August audit](../experiments/transfer/results/source_audit.json). Public complaint narratives are selectively disclosed, and the recorded product is not a specialist adjudication. The current live export is not a substitute for the dated archives. The CFPB does not endorse this prototype or verify the allegations.
+
+This public edition contains executable source, synthetic examples and aggregate results. It does not redistribute complaint narratives, case identifiers or trained weights. A fitted text model contains a vocabulary learned from narratives; keep rebuilt weights, vocabularies and case-level outputs local. Reproducing the analysis does not grant rights beyond each upstream source's terms.

@@ -1,0 +1,51 @@
+{
+  "intro": "July 2026 archive holdout • Thresholds were frozen before July outcomes were opened. No customers were routed.",
+  "metrics": [
+    [
+      "July holdout",
+      "8,830",
+      "Eligible published narratives"
+    ],
+    [
+      "Proposed handoffs",
+      "10.5%",
+      "928 proposed / 8,830 eligible"
+    ],
+    [
+      "Label mismatch",
+      "1.83%",
+      "17 mismatches / 928 proposed; 95% CI: 1.15–2.91%"
+    ]
+  ],
+  "rows": [
+    [
+      "Jul 2026",
+      "Historical cutoff",
+      "2,695 / 8,830",
+      "337 / 2,695",
+      "12.50%"
+    ],
+    [
+      "Jul 2026",
+      "Recalibrated score",
+      "3,104 / 8,830",
+      "191 / 3,104",
+      "6.15%"
+    ],
+    [
+      "Jul 2026",
+      "One pooled gate",
+      "2,286 / 8,830",
+      "112 / 2,286",
+      "4.90%"
+    ],
+    [
+      "Jul 2026",
+      "Destination gates",
+      "928 / 8,830",
+      "17 / 928",
+      "1.83%"
+    ]
+  ],
+  "note": "June’s first short audit passed no queue. The team extended the June audit before opening July outcomes; only cards and mortgages passed. Confirm the result locally before releasing live cases."
+}

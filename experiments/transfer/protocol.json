@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "status": "written before opening August outcomes; a retrospective holdout, not a prospective bank trial",
+  "population": "All official August 2026 archive rows with a narrative of at least ten whitespace-separated words; sort by receipt date and ID. Exclude exact and near copies against the original historical study and June and July eligible narratives and earlier accepted August rows. No product-, company- or outcome-based sampling.",
+  "scorer": "unchanged original 0.8 TF-IDF + 0.2 CatBoost model, June recalibration and June per-destination cutoffs from locked_policy.json",
+  "compare": ["published June destination gates", "same gates plus hold for <50 words; July-suggested rule fixed before August counts"],
+  "eligibility": "An absent institution always forces review. In CFPB data the recorded recipient is only a proxy for known mailbox; no imputation into a release decision.",
+  "primary": "counts routed and wrong, coverage, misroutes/routed, two-sided 95% Wilson intervals for each rate, aggregate and by destination. A zero denominator means unavailable. Confidence in local release requires one-sided exact bounds <5% after Bonferroni across two desks on an independent local sample.",
+  "shortlist": "For manual holds under the length-guarded rule, rank the seven calibrated product labels. Report top-1 and top-2 hit rates, compare against two globally most frequent June 1-7 labels fixed before inspecting the held-out month. Top-2 is assistance potential, not correct human decisions or measured minutes saved.",
+  "fallback": "If August has insufficient eligible narratives (no held cases, or fewer than 100), report archive availability and exact counts; do not fit another policy or pretend a test exists. Evaluate shortlist on the already-opened July cohort as a retrospective analysis. Demonstrate a registered randomized local pilot for decision quality and timing.",
+  "economics": "Same scenario: four saved minutes per auto route, $30/hour, 10% spot audit, $25 incremental rework; omit fixed and rollout costs from variable value. No savings claim from shortlists.",
+  "untouched_until_freeze": ["August class outcomes", "August cohort counts", "August model decisions"]
+}

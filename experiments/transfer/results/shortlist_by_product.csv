@@ -1,0 +1,43 @@
+period,method,true_product,correct_in_top2,n,rate
+May,Model,Accounts,984,1053,0.9344729344729344
+May,Model,Cards,758,832,0.9110576923076923
+May,Model,Collections,1342,1389,0.9661627069834413
+May,Model,Credit reports,131,150,0.8733333333333333
+May,Model,Mortgages,137,149,0.9194630872483222
+May,Model,Transfers,418,479,0.872651356993737
+May,Model,Other / review,646,741,0.8717948717948718
+May,Fixed June products,Accounts,0,1053,0.0
+May,Fixed June products,Cards,832,832,1.0
+May,Fixed June products,Collections,1389,1389,1.0
+May,Fixed June products,Credit reports,0,150,0.0
+May,Fixed June products,Mortgages,0,149,0.0
+May,Fixed June products,Transfers,0,479,0.0
+May,Fixed June products,Other / review,0,741,0.0
+May,Keyword rule,Accounts,609,1053,0.5783475783475783
+May,Keyword rule,Cards,677,832,0.8137019230769231
+May,Keyword rule,Collections,1344,1389,0.9676025917926566
+May,Keyword rule,Credit reports,116,150,0.7733333333333333
+May,Keyword rule,Mortgages,93,149,0.6241610738255033
+May,Keyword rule,Transfers,48,479,0.10020876826722339
+May,Keyword rule,Other / review,177,741,0.2388663967611336
+July,Model,Accounts,1858,2009,0.9248382279741165
+July,Model,Cards,1324,1464,0.9043715846994536
+July,Model,Collections,1800,1866,0.9646302250803859
+July,Model,Credit reports,207,234,0.8846153846153846
+July,Model,Mortgages,261,294,0.8877551020408163
+July,Model,Transfers,659,771,0.85473411154345
+July,Model,Other / review,1124,1293,0.8692962103634957
+July,Fixed June products,Accounts,0,2009,0.0
+July,Fixed June products,Cards,1464,1464,1.0
+July,Fixed June products,Collections,1866,1866,1.0
+July,Fixed June products,Credit reports,0,234,0.0
+July,Fixed June products,Mortgages,0,294,0.0
+July,Fixed June products,Transfers,0,771,0.0
+July,Fixed June products,Other / review,0,1293,0.0
+July,Keyword rule,Accounts,1252,2009,0.6231956197112991
+July,Keyword rule,Cards,1197,1464,0.8176229508196722
+July,Keyword rule,Collections,1807,1866,0.9683815648445874
+July,Keyword rule,Credit reports,171,234,0.7307692307692307
+July,Keyword rule,Mortgages,200,294,0.6802721088435374
+July,Keyword rule,Transfers,81,771,0.10505836575875487
+July,Keyword rule,Other / review,315,1293,0.24361948955916474

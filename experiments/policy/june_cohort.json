@@ -1,0 +1,8 @@
+{
+  "raw_eligible": 16789,
+  "retained": 14642,
+  "excluded_duplicates": 2147,
+  "archive_sha256": "3021c8af9eeed4971a92f15be21c7ce08cf3c1337151de255e5b12bf782049df",
+  "retained_id_hash": "5676520b9cdc5071f9a29a5a52ece6c2520026513940fe23bdf5ce62a5cac373",
+  "public_raw_text_redistributed": false
+}

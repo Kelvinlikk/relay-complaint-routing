@@ -1,0 +1,3 @@
+period,versus,held,model_only,baseline_only,paired_lift,day_cluster_lower,day_cluster_upper
+May all,Fixed June products,13615,6627,341,0.4616966580976864,0.45107688975201676,0.4720126837760308
+May all,Keyword rule,13615,4162,313,0.2827029012118986,0.27458260588027117,0.29111271673581374

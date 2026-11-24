@@ -1,0 +1,148 @@
+split,actual,route,n
+policy,Accounts,Accounts,55
+policy,Accounts,Cards,1
+policy,Accounts,Collections,0
+policy,Accounts,Credit reports,0
+policy,Accounts,Mortgages,1
+policy,Accounts,Transfers,1
+policy,Accounts,Other / review,0
+policy,Cards,Accounts,1
+policy,Cards,Cards,123
+policy,Cards,Collections,1
+policy,Cards,Credit reports,5
+policy,Cards,Mortgages,0
+policy,Cards,Transfers,0
+policy,Cards,Other / review,0
+policy,Collections,Accounts,1
+policy,Collections,Cards,0
+policy,Collections,Collections,225
+policy,Collections,Credit reports,14
+policy,Collections,Mortgages,1
+policy,Collections,Transfers,0
+policy,Collections,Other / review,0
+policy,Credit reports,Accounts,0
+policy,Credit reports,Cards,4
+policy,Credit reports,Collections,16
+policy,Credit reports,Credit reports,981
+policy,Credit reports,Mortgages,5
+policy,Credit reports,Transfers,1
+policy,Credit reports,Other / review,0
+policy,Mortgages,Accounts,0
+policy,Mortgages,Cards,0
+policy,Mortgages,Collections,0
+policy,Mortgages,Credit reports,0
+policy,Mortgages,Mortgages,121
+policy,Mortgages,Transfers,0
+policy,Mortgages,Other / review,0
+policy,Transfers,Accounts,2
+policy,Transfers,Cards,0
+policy,Transfers,Collections,0
+policy,Transfers,Credit reports,0
+policy,Transfers,Mortgages,1
+policy,Transfers,Transfers,20
+policy,Transfers,Other / review,0
+policy,Other / review,Accounts,0
+policy,Other / review,Cards,0
+policy,Other / review,Collections,0
+policy,Other / review,Credit reports,5
+policy,Other / review,Mortgages,0
+policy,Other / review,Transfers,0
+policy,Other / review,Other / review,0
+test,Accounts,Accounts,103
+test,Accounts,Cards,2
+test,Accounts,Collections,0
+test,Accounts,Credit reports,0
+test,Accounts,Mortgages,0
+test,Accounts,Transfers,2
+test,Accounts,Other / review,0
+test,Cards,Accounts,6
+test,Cards,Cards,243
+test,Cards,Collections,2
+test,Cards,Credit reports,8
+test,Cards,Mortgages,0
+test,Cards,Transfers,2
+test,Cards,Other / review,0
+test,Collections,Accounts,0
+test,Collections,Cards,3
+test,Collections,Collections,587
+test,Collections,Credit reports,31
+test,Collections,Mortgages,4
+test,Collections,Transfers,0
+test,Collections,Other / review,0
+test,Credit reports,Accounts,0
+test,Credit reports,Cards,9
+test,Credit reports,Collections,60
+test,Credit reports,Credit reports,2292
+test,Credit reports,Mortgages,6
+test,Credit reports,Transfers,1
+test,Credit reports,Other / review,0
+test,Mortgages,Accounts,0
+test,Mortgages,Cards,0
+test,Mortgages,Collections,1
+test,Mortgages,Credit reports,4
+test,Mortgages,Mortgages,334
+test,Mortgages,Transfers,0
+test,Mortgages,Other / review,0
+test,Transfers,Accounts,4
+test,Transfers,Cards,1
+test,Transfers,Collections,0
+test,Transfers,Credit reports,0
+test,Transfers,Mortgages,0
+test,Transfers,Transfers,57
+test,Transfers,Other / review,0
+test,Other / review,Accounts,1
+test,Other / review,Cards,0
+test,Other / review,Collections,0
+test,Other / review,Credit reports,4
+test,Other / review,Mortgages,0
+test,Other / review,Transfers,0
+test,Other / review,Other / review,0
+shift,Accounts,Accounts,122
+shift,Accounts,Cards,1
+shift,Accounts,Collections,1
+shift,Accounts,Credit reports,6
+shift,Accounts,Mortgages,0
+shift,Accounts,Transfers,3
+shift,Accounts,Other / review,0
+shift,Cards,Accounts,1
+shift,Cards,Cards,217
+shift,Cards,Collections,5
+shift,Cards,Credit reports,23
+shift,Cards,Mortgages,0
+shift,Cards,Transfers,0
+shift,Cards,Other / review,0
+shift,Collections,Accounts,1
+shift,Collections,Cards,0
+shift,Collections,Collections,358
+shift,Collections,Credit reports,53
+shift,Collections,Mortgages,2
+shift,Collections,Transfers,0
+shift,Collections,Other / review,0
+shift,Credit reports,Accounts,0
+shift,Credit reports,Cards,0
+shift,Credit reports,Collections,0
+shift,Credit reports,Credit reports,126
+shift,Credit reports,Mortgages,0
+shift,Credit reports,Transfers,0
+shift,Credit reports,Other / review,0
+shift,Mortgages,Accounts,0
+shift,Mortgages,Cards,0
+shift,Mortgages,Collections,1
+shift,Mortgages,Credit reports,0
+shift,Mortgages,Mortgages,133
+shift,Mortgages,Transfers,0
+shift,Mortgages,Other / review,0
+shift,Transfers,Accounts,4
+shift,Transfers,Cards,2
+shift,Transfers,Collections,0
+shift,Transfers,Credit reports,0
+shift,Transfers,Mortgages,0
+shift,Transfers,Transfers,39
+shift,Transfers,Other / review,0
+shift,Other / review,Accounts,0
+shift,Other / review,Cards,1
+shift,Other / review,Collections,5
+shift,Other / review,Credit reports,26
+shift,Other / review,Mortgages,1
+shift,Other / review,Transfers,0
+shift,Other / review,Other / review,0

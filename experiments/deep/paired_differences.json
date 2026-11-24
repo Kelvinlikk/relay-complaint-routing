@@ -1,0 +1,44 @@
+{
+  "test: Joint minus Sparse + intake": {
+    "delta_macro_f1": -0.007511105961823583,
+    "percentile95_iid_paired": [
+      -0.01881293169411103,
+      0.002264845802808619
+    ]
+  },
+  "test: Joint minus Original blend": {
+    "delta_macro_f1": 0.008488502255626584,
+    "percentile95_iid_paired": [
+      -0.0027443443497266406,
+      0.02090205761602638
+    ]
+  },
+  "test: Encoder + intake minus Encoder": {
+    "delta_macro_f1": 0.0629040370674735,
+    "percentile95_iid_paired": [
+      0.0530394847913132,
+      0.07403633047402026
+    ]
+  },
+  "shift: Joint minus Sparse + intake": {
+    "delta_macro_f1": -0.017938457889110304,
+    "percentile95_iid_paired": [
+      -0.029224749744424745,
+      -0.00618256361985121
+    ]
+  },
+  "shift: Joint minus Original blend": {
+    "delta_macro_f1": 0.01474531198115614,
+    "percentile95_iid_paired": [
+      0.002685306932137052,
+      0.028120037254840677
+    ]
+  },
+  "shift: Encoder + intake minus Encoder": {
+    "delta_macro_f1": 0.07771642544419433,
+    "percentile95_iid_paired": [
+      0.06636467910945588,
+      0.08958627244651983
+    ]
+  }
+}

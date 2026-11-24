@@ -1,0 +1,123 @@
+{
+  "version": "1.0",
+  "labels": [
+    "Accounts",
+    "Cards",
+    "Collections",
+    "Credit reports",
+    "Mortgages",
+    "Transfers",
+    "Other / review"
+  ],
+  "target": 0.05,
+  "alpha": 0.025,
+  "fit_period": "2026-06-01/07",
+  "threshold_period": "2026-06-08/11",
+  "audit_period": "2026-06-12/30",
+  "counts": {
+    "fit": 2590,
+    "tune": 3127,
+    "certify": 8925
+  },
+  "class_offsets": [
+    1.0856003483833243,
+    0.4572830474022572,
+    -0.05427986834345687,
+    -3.2663659244592598,
+    0.14070938846687986,
+    0.9113810885638852,
+    0.7256719199863699
+  ],
+  "temperature": 1.0641073272756074,
+  "queue_cutoffs": [
+    1.01,
+    0.94,
+    1.01,
+    1.01,
+    0.86,
+    1.01
+  ],
+  "certificates": [
+    {
+      "queue": "Accounts",
+      "candidate_cutoff": 0.92,
+      "n": 541,
+      "wrong": 29,
+      "p_exact": 0.693527953583094,
+      "one_sided_95_upper": 0.07237216545190009,
+      "holm_p": 1.0,
+      "enabled": false,
+      "cutoff": 1.01
+    },
+    {
+      "queue": "Cards",
+      "candidate_cutoff": 0.94,
+      "n": 444,
+      "wrong": 6,
+      "p_exact": 3.7306676914197816e-05,
+      "one_sided_95_upper": 0.026496822186445904,
+      "holm_p": 0.0002238400614851869,
+      "enabled": true,
+      "cutoff": 0.94
+    },
+    {
+      "queue": "Collections",
+      "candidate_cutoff": 0.74,
+      "n": 1543,
+      "wrong": 72,
+      "p_exact": 0.29781101575116486,
+      "one_sided_95_upper": 0.05648247372583482,
+      "holm_p": 1.0,
+      "enabled": false,
+      "cutoff": 1.01
+    },
+    {
+      "queue": "Credit reports",
+      "candidate_cutoff": 1.01,
+      "n": 0,
+      "wrong": 0,
+      "p_exact": 1.0,
+      "one_sided_95_upper": null,
+      "holm_p": 1.0,
+      "enabled": false,
+      "cutoff": 1.01
+    },
+    {
+      "queue": "Mortgages",
+      "candidate_cutoff": 0.86,
+      "n": 401,
+      "wrong": 6,
+      "p_exact": 0.0001893249020378365,
+      "one_sided_95_upper": 0.029317352594811625,
+      "holm_p": 0.0009466245101891825,
+      "enabled": true,
+      "cutoff": 0.86
+    },
+    {
+      "queue": "Transfers",
+      "candidate_cutoff": 1.01,
+      "n": 0,
+      "wrong": 0,
+      "p_exact": 1.0,
+      "one_sided_95_upper": null,
+      "holm_p": 1.0,
+      "enabled": false,
+      "cutoff": 1.01
+    }
+  ],
+  "pooled_cutoff": 0.94,
+  "pooled_certificate": {
+    "queue": "All specialist routes",
+    "candidate_cutoff": 0.94,
+    "n": 2217,
+    "wrong": 81,
+    "p_exact": 0.001441520470286876,
+    "one_sided_95_upper": 0.043787839659354934,
+    "holm_p": 0.001441520470286876,
+    "enabled": true,
+    "cutoff": 0.94
+  },
+  "legacy_cutoff": 0.9000000000000004,
+  "policy_notes": "Six fixed candidate rules tested together using exact Holm step-down at 2.5% per look. A 1.01 cutoff disables a destination. No coverage claim applies outside eligible narrations with trusted tenant. Statistical replay assumes exchangeable independent cases within the certification window; subsequent shifts are not covered.",
+  "pilot_audit_rule": "End-of-month safety reassessment; fixed thresholds, one-sided Holm .025 in 6 destinations. Pooled gate is a separate benchmark. Not a prospective test of the study design: initial short-window limitation prompted the re-audit."
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "S-101",
+    "short": "Card charge dispute",
+    "company": "AMERICAN EXPRESS COMPANY",
+    "state": "MA",
+    "text": "I disputed a duplicate purchase on my credit card statement. My card issuer credited the charge and then charged my credit card again. Please reverse this billing error on my credit card. The merchant only processed one order and I have a receipt that shows the date, amount, and original payment confirmation."
+  },
+  {
+    "id": "S-102",
+    "short": "Collection after payment",
+    "company": "ENCORE CAPITAL GROUP INC.",
+    "state": "MA",
+    "text": "A collection agency keeps calling about an old debt after I paid the balance. I requested written validation of the debt and the collector still calls about collecting it."
+  },
+  {
+    "id": "S-103",
+    "short": "Mortgage lien release",
+    "company": "LOANCARE, LLC",
+    "state": "CO",
+    "text": "I paid off my mortgage last month. My mortgage servicer still lists a balance on my mortgage loan, has not released the mortgage lien on my house, and continues to send monthly mortgage statements."
+  },
+  {
+    "id": "S-104",
+    "short": "Credit file discrepancy",
+    "company": "TRANSUNION INTERMEDIATE HOLDINGS, INC.",
+    "state": "IL",
+    "text": "My credit report includes an unfamiliar account and a wrong address. I disputed both with the credit bureau and asked to have my credit file corrected."
+  },
+  {
+    "id": "S-105",
+    "short": "Ambiguous missing payment",
+    "company": "JPMORGAN CHASE & CO.",
+    "state": "MA",
+    "text": "I contacted customer support about a charge and a transfer. The payment is still missing and two departments have given me different answers."
+  },
+  {
+    "id": "S-106",
+    "short": "No verified mailbox",
+    "company": "",
+    "state": "CA",
+    "text": "The bank took another maintenance fee from my checking account, even though I met the minimum balance rule on my checking account statement."
+  }
+]

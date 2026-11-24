@@ -1,0 +1,28 @@
+# Can a neural text representation improve the operational router?
+
+**Question.** A linear probability blend initially assigned zero weight to BERT. That result does not rule out deep features: collapsing a narrative to seven class scores can discard distinctions a joint classifier would use. We therefore moved from combining scores to combining input representations and fitted controlled ablations.
+
+**Architecture.** Feed a complaint through the trained two-layer, 128-hidden-unit TinyBERT. Retain the 128 numbers from its pooled, pre-classifier [CLS] output, using the same 112-token head-and-tail truncation as the original experiment. Scale each embedding feature using training statistics and L2-normalize each row. A separate input block contains one-hot company and state (rare levels grouped), plus eight features known directly from a complaint on arrival: word/character counts, vocabulary diversity, digit and uppercase shares, and counts of questions, dollar signs and line breaks. The optional sparse block is the training-fitted TF-IDF word/bigram dictionary. Concatenate the selected blocks and fit a single L2 multinomial logistic head: this is **feature-level fusion with a supervised head**, not a claim that an end-to-end neural network was jointly trained on company data.
+
+**Fair comparisons.** Matched variants use metadata/style only, BERT only, BERT plus metadata/style, sparse text plus metadata/style, or all three blocks. The last two have the same linear head and hyperparameter grid; their difference isolates the incremental information in BERT. The original decision system remains a separate benchmark. All head parameters and feature scaling use the 23,779 May 2018–December 2019 training records, C∈{1,8} and a temperature use the 3,065 January–April 2020 tuning records, and the 3,000 May–August 2020 records set decision cutoffs. The base BERT was fine-tuned on that original historical training set with checkpoint selection using tuning macro-F1. Each head’s cutoff maximizes predicted-specialist coverage on the historical policy window with ≥100 routed cases and a two-sided Wilson upper error bound ≤5%. No June/July outcome enters any challenger fitting or decision selection; fitted heads are separate secondary comparisons, not retroactive overrides of the main July gate. Cutoff selection and approximate duplicate screening are not performance guarantees.
+
+**Rebuild.** From a repository containing original training outputs, run:
+```bash
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=2 python experiments/deep/fusion.py --repo . --out experiments/deep --threads 2
+```
+The original encoder and TF-IDF dictionary are loaded from `models/`; the original scored arrays/cohort must be rebuilt with the baseline pipeline if unavailable. The command creates privacy-sensitive intermediate embeddings/IDs (`private_embeddings.npz`); keep them outside public source control. The public edition ships scripts and aggregate outputs only. Keep fitted heads in the private local checkout. Pretrained weights and training details are documented by the baseline pipeline. Inference uses only the supplied intake fields; no label, issue hierarchy, complaint ID or company response is used. A CFPB company is a valid tenant proxy only if independent mailbox identity is known; an inferred eventual recipient is not available at intake.
+
+**Outputs.** `benchmarks.csv`: full seven-class macro-F1, accuracy and log loss alongside operating coverage and error (wrong/routed); `recall_by_queue.csv`: pre-abstention class recall; `head_config.json`: selected hyperparameters, temperature and cutoff; `paired_differences.json`: paired percentile intervals across 500 same-row resamples on held-out periods. Those intervals assume independent cases and omit timeline/firm clustering. The challenger must not be re-tuned because of these held-out comparisons.
+
+## Actual results
+
+| Frozen input specification | Primary test macro-F1 | June 2026 macro-F1 | July 2026 macro-F1 |
+| --- | ---: | ---: | ---: |
+| TinyBERT representation alone | 0.706 | 0.621 | Not run |
+| TinyBERT representation + intake | 0.769 | 0.698 | 0.668 |
+| Sparse TF-IDF + intake | 0.791 | 0.726 | 0.705 |
+| Sparse TF-IDF + TinyBERT representation + intake | 0.784 | 0.708 | 0.687 |
+
+The controlled encoder-only comparison shows a 6.3-point macro-F1 gain from adding intake structure in the primary test (paired 95% interval 5.3–7.4 points). Adding the encoder to the sparse+intake model changed macro-F1 by −0.8 points (95% −1.9 to +0.2 points). June and July reproduced the *ordering* of the sparse and full heads. This does not establish a general limitation of deep learning: one compact model, text length and historical training distribution were tested. The full joint model improved historical log loss slightly versus sparse+intake but did not improve macro-F1.
+
+On July, each of the three preserved heads missed the 5% operational error target under its frozen historical rule: 306/2,714 (11.3%) wrong for the full joint model, 387/3,045 (12.7%) for sparse+intake, and 295/2,331 (12.7%) for encoder+intake. Different thresholds yield different coverage; these rates are *not* equivalent-coverage comparisons. This motivates testing monitored queue-specific decisions rather than assuming a stronger feature extractor fixes drift. The July holdout was opened only after the main policy freeze; the three challenger probability matrices had already been frozen blind (private July scores SHA-256: 86a5d85a98d3fbb63bb751271865e85ec2c06bc45aa7284727a5dfa5d37a2cd4). Rows were never used to fit, choose or calibrate these heads.

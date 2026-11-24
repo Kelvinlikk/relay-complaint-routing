@@ -1,0 +1,18 @@
+[
+  {
+    "text": "I paid off my mortgage but the servicer still lists a balance on my home loan and has not released the lien on my house.",
+    "decision": "Mortgages",
+    "suggested_queue": "Mortgages",
+    "confidence": 0.9916,
+    "threshold": 0.955,
+    "model": "TF-IDF"
+  },
+  {
+    "text": "I contacted customer support about a charge and a transfer. The payment is still missing and two departments have given me different answers.",
+    "decision": "Human review",
+    "suggested_queue": "Transfers",
+    "confidence": 0.2628,
+    "threshold": 0.955,
+    "model": "TF-IDF"
+  }
+]
